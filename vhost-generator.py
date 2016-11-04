@@ -59,7 +59,6 @@ vhost_content = vhost_content % (vhost_name, doc_root, doc_root)
 names = [os.path.basename(x) for x in glob(apache_config_path + "[0-9][0-9]*.conf")]
 conf_files = sorted(names)
 
-print(conf_files)
 last_file = conf_files[-1]
 
 file_index = last_file[0:2]
