@@ -1,3 +1,18 @@
+"""
+WARNING: This is for personal developement use and not for use in production.
+
+This file helps in setting up apache virtual hosts (name based) in ubuntu envirnment.
+You shoud provide the vhost name and the doc root for the new host in terminal prompt.
+It will append a new entry to the /etc/hosts file as well.
+
+Execute the script with root privileges.
+$ sudo python3 vhost-generator.py
+
+You might need to update the vhost_content according to the most common vhost configs 
+you've been using, except ServerName, DocumentRoot and other places that dynamically 
+generated.
+"""
+
 from glob import glob
 import os
 
