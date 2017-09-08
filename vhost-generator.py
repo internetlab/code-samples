@@ -1,7 +1,7 @@
 """
 WARNING: This is for personal developement use and not for use in production.
 
-This file helps in setting up apache virtual hosts (name based) in ubuntu envirnment.
+This file helps in setting up apache virtual hosts (name based) in ubuntu environment.
 You shoud provide the vhost name and the doc root for the new host in terminal prompt.
 It will append a new entry to the /etc/hosts file as well.
 
